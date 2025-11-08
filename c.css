@@ -143,9 +143,11 @@ footer{
 
 }
 @media(max-width: 768px){
+   
     header{
-        margin-left: 1rem;
-        margin-right: 1rem;
+        flex-direction: column;
+        text-align: center;
+       padding: 1rem;
     }
     .hero{
         flex-direction: column;
@@ -153,8 +155,16 @@ footer{
     padding: 60px 20px;
 
     }
+    .navigation ul {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
+    }
     .img{
-        width: 400px;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        
     }
     .contactContainer{
         align-items: center;
@@ -165,10 +175,9 @@ footer{
         flex-direction: column-reverse;
         align-items: center;
         gap: 2rem;
+        padding: 1rem;
     }
-    p ,h1,h2 {
-        font-size: 2rem;
-    }
+    
      section {
     padding: 40px 20px;
   }
@@ -183,6 +192,10 @@ footer{
     flex-direction: column;
     padding: 10px 20px;
   
+  }
+  .contact-box{
+    flex-direction: column;
+    margin-right: 0;
   }
 
 }
