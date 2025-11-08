@@ -1,8 +1,6 @@
 🌱
 
-## المحتوى:
-- index.html : this is my portfolio.
-- README.md 
+## the content : 
+- hi,this is my portfolio 
+- by hidri meriem 
 
-
-✨ by Meriem
